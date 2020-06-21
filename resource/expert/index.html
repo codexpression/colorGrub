@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Expert color Grub</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form class="form-group" onsubmit="event.preventDefault(); handleGradient();">
+    <h3>Make a background gradient!</h3>
+    <input type="text" name="colorbox" id="colorbox" />
+      <small>**Ex: direction, color1, color2, color3(optional) respectively</small>
+      <div class="radio-btn">
+        <label class="container">linear
+          <input type="radio" name="radio" class="linear">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">radial
+          <input type="radio" name="radio" class="radial">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    <button type="submit" id="submit">submit</button>
+  </form>
+  <script src="./app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

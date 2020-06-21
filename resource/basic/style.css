@@ -1,0 +1,55 @@
+@import url("https://fonts.google.com/css?family=Poppins&display=swap");
+
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5%;
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+}
+
+form {
+  position: relative;
+  width: 50%;
+  background: white;
+  color: #aaa;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 2px;
+  animation-name: fadeInTop;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInTop {
+  from {
+    top: -10px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px dashed black;
+  outline: none;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: black;
+  color: white;
+}

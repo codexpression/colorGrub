@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advanced color Grub</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form class="form-group" onsubmit="event.preventDefault(); handleColor();">
+    <h3>Enter colors</h3>
+    <input type="text" name="colorbox" id="colorbox" />
+    <button type="submit" id="submit">submit</button>
+    
+    <div class="btn-nav">
+      <button type="button" onclick="prev()">prev</button>
+      <button type="button" onclick="next()">next</button>
+    </div>
+  </form>
+  <script src="./app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

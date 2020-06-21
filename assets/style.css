@@ -1,0 +1,38 @@
+@import url("https://fonts.google.com/css?family=Poppins&display=swap");
+
+
+body {
+    height: 100vh;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 3px 19px #000;
+    font-family: Poppins, sans-serif;
+}
+/*
+.btn-grid {
+  display: grid;
+  grid-template: 1fr 1fr;
+  grid-gap: 10px;
+}
+*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+button {
+  padding: 9px;
+  border: 1px dashed #999;
+  border-radius: 10px;
+  box-shadow: 2px 3px 18px #22222205;
+}
